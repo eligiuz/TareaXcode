@@ -24,7 +24,7 @@ for n in numeros{
     if (n % 2) == 0 {
         print("# \(n) Par!!!")
     }
-// Debido a que el cero (0) es considerado como par debe ser eliminado del analisis    
+// Debido a que el cero (0) es considerado como par debe ser eliminado del analisis
     if (n > 0 && (n % 2) != 0) {
         print("# \(n) Impar!!!")
     }
